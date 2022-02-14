@@ -1,0 +1,48 @@
+body{
+    background-color: #212832;
+    color: white;
+    /* text-align: center; */
+}
+
+.container{
+    max-width: 1200px;
+    width: 95%;
+    border:  #25313f solid 5px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+.subhead{
+    text-align: center;
+}
+
+input{
+    background-color: #30495f;
+    color: whitesmoke;
+    width: 95%;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.clickme{
+    display: flex;
+    width: 95%;
+}
+
+@media only screen and (min-width:1200px) {
+    .subform{
+        display: flex;
+
+    }
+
+    .column{
+    display: flex;
+    width: 95%;
+    /* align-items: center; */
+}
+    .col{
+         width: 95%;
+    }
+
+}
